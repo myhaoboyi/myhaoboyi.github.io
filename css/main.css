@@ -1,5 +1,5 @@
 .blank{
-	
+	width:50% !important;
 	float:right;
 }
 .navbar-header{
@@ -12,11 +12,12 @@
 }
 .navbar-nav{
 width:60%;
+right:120Px;
 }
 .navSize{
     font-size: 3em;
     margin-top: 26px;
-    font-family: Chalkduster;
+    font-family: Chalkduster, Papyrus, fantasy;
 }
 .titleImage{
 
