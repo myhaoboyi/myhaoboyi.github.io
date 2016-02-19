@@ -1,12 +1,17 @@
-.titleImage{
-	width:200px;
-	height:100px;
+.blank{
+	
+	float:right;
 }
-
+.navbar-header{
+	width:40%;
+}
 .titleNav{
 	position: fixed;
 	background-color: white;
 	width:100%;
+}
+.navbar-nav{
+width:60%;
 }
 .navSize{
     font-size: 3em;
@@ -14,12 +19,13 @@
     font-family: chiller;
 }
 .titleImage{
+
+	width:200px;
+	height:100px;
 	cursor: pointer;
 	border-right: 2px solid #D0D0D0  ;
 }
-.wall{
-	height:100px;
-}
+
 .contentContainer{
 	width: 1899px;
     height: 1100px;
