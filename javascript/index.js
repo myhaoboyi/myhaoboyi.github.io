@@ -1,17 +1,58 @@
 $(document).ready(function() {
 	
-	if(!!window.chrome && !!window.chrome.webstore===false){
-		console.log('here')
-   	$('body').css('display','none');
-	}
+	
   var wechat='http://farm2.staticflickr.com/1481/24761244169_29f9f4019b_b.jpg';
   $(".2015").click(function (e) {
      e.preventDefault();
-  	window.open("http://www.cnn.com", "_self");
+  	 $(".2015").w2popup({title : '你点击了2015',
+  	 					body:'     <p >2015 Coming Soon</p>',
+                        style:   'padding-top:40px',
+  	 					width           : 160,     // width in px
+      					height          : 160, 
+						opacity         : 0.4,     // opacity for the screen lock div
+   						speed           : 0.6,     // popup speed (in seconds)
+    					showClose       : true,  
+  	});
+  });
+  $(".2015").click(function (e) {
+     e.preventDefault();
+  	 $(".2015").w2popup({title : '你点击了2015',
+  	 					body:'     <p >2015 Coming Soon</p>',
+                        style:   'padding-top:40px',
+  	 					width           : 160,     // width in px
+      					height          : 160, 
+						opacity         : 0.4,     // opacity for the screen lock div
+   						speed           : 0.6,     // popup speed (in seconds)
+    					showClose       : true,  
+  	});
+  });
+  $(".2014").click(function (e) {
+     e.preventDefault();
+  	 $(".2014").w2popup({title : '你点击了2014',
+  	 					body:'     <p >2014 Coming Soon</p>',
+                        style:   'padding-top:40px',
+  	 					width           : 160,     // width in px
+      					height          : 160, 
+						opacity         : 0.4,     // opacity for the screen lock div
+   						speed           : 0.6,     // popup speed (in seconds)
+    					showClose       : true,  
+  	});
+  });
+  $(".2016").click(function (e) {
+     e.preventDefault();
+  	 $(".2016").w2popup({title : '你点击了2016',
+  	 					body:'     <p >2016 Coming Soon</p>',
+                        style:   'padding-top:40px',
+  	 					width           : 160,     // width in px
+      					height          : 160, 
+						opacity         : 0.4,     // opacity for the screen lock div
+   						speed           : 0.6,     // popup speed (in seconds)
+    					showClose       : true,  
+  	});
   });
   $(".titleImage").click(function (e) {
      e.preventDefault();
-  	window.open("http://lovemecynthia.com", "_self");
+  	window.open("http://myhaoboyi.github.io", "_self");
   });
   $('.fa-weixin').click(function(e){
   	$('.fa-weixin').w2popup({
