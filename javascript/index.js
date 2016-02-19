@@ -26,6 +26,18 @@ $(document).ready(function() {
     					showClose       : true,  
   	});
   });
+	$('.home').click(function(e){
+		$(this).w2popup({
+			title:'Travel Stories',
+			body:' <p>Travel Stories from google photo</p>' +
+			'<p>In Love on the road</p>',
+			width           : 300,     // width in px
+			height          : 300,
+			opacity         : 0.8,
+			speed           : 1,
+			showClose       : true,
+		})
+	});
   $(".2014").click(function (e) {
      e.preventDefault();
   	 $(".2014").w2popup({title : '你点击了2014',
