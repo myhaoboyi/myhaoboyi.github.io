@@ -58,8 +58,8 @@ $(document).ready(function() {
   	$('.fa-weixin').w2popup({
      //url: 'http://farm2.staticflickr.com/1481/24761244169_29f9f4019b_b.jpg',
       title : 'WECHAT 扫一扫',
-      style           : 'background-image:url('+wechat+');background-size: 100% 100%;',      // additional styles
-      width           : 300,     // width in px
+      style           : 'background-image:url('+wechat+');background-size: 100% 100%;backgroung-position：center;',      // additional styles
+      width           : 350,     // width in px
       height          : 500,     // height in px
     color           : '#000',  // background-color for the screen lock div
     opacity         : 0.4,     // opacity for the screen lock div
