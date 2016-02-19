@@ -92,3 +92,7 @@ right:120Px;
     background-color: #B6B6B6;
     border: 2px solid navajowhite;
 }
+.copyright :hover{
+	cursor: pointer;
+	color:navy;
+}
