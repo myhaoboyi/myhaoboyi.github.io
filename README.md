@@ -1,3 +1,5 @@
 # myhaoboyi.github.io
 
-Love Cynthia readme 0.05
+This is a little project for tracking my life
+
+Write by Boyi Hao
