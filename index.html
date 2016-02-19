@@ -13,9 +13,20 @@
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <script>
+  $(document).ready(function() {
+    if(!!window.chrome && !!window.chrome.webstore===false){
+     alert('请使用chrome')
+    $('#body').css('display','none');
+    $('.ChromeSupport').css('display','');
+  }
+  })
+  </script>
 </head>
 <body>
-
+<div style='display:none' class="container ChromeSupport">Only support Chrome and ipad Chrome</div>
+<div id='body'>
 <nav class="navbar navbar titleNav">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -43,7 +54,9 @@
 <footer>
   <div class='container footerContainer' style='width:100%'>
   <div class='row'>
-    <div class='col-md-8 announcement' style="display:inline-block;"><a href='page/announcement.html' class='announcement'>announcement</a></div>
+    <div class='col-md-8 announcement' style="display:inline-block;"><a href='page/announcement.html' class='announcement'>announcement</a>
+    <a style='cursor: help'>Please use Chrome for Windows or Ipad</a>
+    </div>
     <div class='col-md-4 'style="display:inline-block;"> 
     <div class="icongruop">
       <span class="fa-hover"><a href="https://www.facebook.com/myhaoboyi"><i class="fa fa-facebook-square" style="font-size:36px;color:#3b5998"></i></a></span>
@@ -60,5 +73,6 @@
       </div>
   </div>
 </footer>
+</div>
 </body>
 </html>
