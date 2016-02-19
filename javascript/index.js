@@ -54,6 +54,18 @@ $(document).ready(function() {
      e.preventDefault();
   	window.open("http://myhaoboyi.github.io", "_self");
   });
+  $('.donate').click(function(e){
+  	$('.donateLink').toggle("slow");
+  	$('.nodonate').toggle();
+  	$('.donate').toggle();
+  });
+    $('.nodonate').click(function(e){
+    	$('.donate').toggle();
+    	$('.nodonate').toggle();
+  		$('.donateLink').toggle("slow");
+  	
+  	
+  });
   $('.fa-weixin').click(function(e){
   	$('.fa-weixin').w2popup({
      //url: 'http://farm2.staticflickr.com/1481/24761244169_29f9f4019b_b.jpg',
