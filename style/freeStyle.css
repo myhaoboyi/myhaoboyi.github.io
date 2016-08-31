@@ -1,0 +1,9 @@
+/*#mapid { height: 1000px; }*/
+/* required styles */
+.context{
+    color: #444444;
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px
+}

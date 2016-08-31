@@ -1,80 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Hao,Boyi</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel='stylesheet' href="css/main.css">
-  <link rel='stylesheet' href="css/w2ui-1.4.3.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-  <script type="text/javascript" src="javascript/index.js"></script>
-  <script type="text/javascript" src="javascript/w2ui-1.4.3.min.js"></script>
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script> -->
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-  <script>
-  $(document).ready(function() {
-    if(!!window.chrome && !!window.chrome.webstore===false){
-     alert('请使用chrome')
-    $('#body').css('display','none');
-    $('.ChromeSupport').css('display','');
-  }
-  })
-  </script>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--<link rel="icon" type="image/png" href="favicons.png">-->
+	<title>Travel</title>
+	<!-- Bootstrap core CSS -->
 </head>
-<body>
-<div style='display:none' class="container ChromeSupport">Only support Chrome and ipad Chrome</div>
-<div id='body'>
-<nav class="navbar navbar titleNav">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <div class='blank col-md-4'>
-       <img class='titleImage'src="image/LOGO.PNG" >
-       <a href='#' class='logo'></a>
-       </div>
-    </div>
-    <ul class="nav navbar-nav col-md-8 ">
-      <li class="active navSize Home"><a href="#">Home</a></li>
-      <li class="navSize 2014"><a href="#">2014</a></li>
-      <li class="navSize 2015"><a href>2015</a></li>
-      <li class="navSize 2016"><a href="#">2016</a></li>
-     <!--  <li class="navSize"><a>............</a></li> -->
-      <li class="navSize"style='font-family:"Bradley Hand ITC"'><a href="#">To Be Continue..........</a></li>
-    </ul>
-  </div>
-</nav>
-<div class='wall' style="height:100px"></div>
-<div class="container contentContainer">
-  <pre class="home">In  Travel  we  Trust</pre>
-</div>
-<!-- <div class="container contentContainers">
 
-</div> -->
-<footer>
-  <div class='container footerContainer' style='width:100%;background-color:#ffffcc'>
-  <div class='row'>
-    <div class='col-md-8 announcement' style="display:inline-block;"><a href='page/announcement.html' class='announcement'>ANNOUNCEMENT</a>
-    <a style='cursor: help;padding-left:10px;' href="page/Readme.html"> Please use Chrome for Windows or Ipad, Not support any IE</a>
-    </div>
-    <div class='col-md-4 'style="display:inline-block;"> 
-    <div class="icongruop">
-      <span class="fa-hover"><a href="https://www.facebook.com/myhaoboyi"><i class="fa fa-facebook-square" style="font-size:36px;color:#3b5998"></i></a></span>
-      <span class="fa-hover"><a href="https://www.youtube.com/channel/UChenV_psvK_4gf_ND1vhUMw"><i class="fa fa-youtube" style="font-size:36px;color: #c4302b "></i></a></span>
-      <span class="fa-hover"><a href="http://www.renren.com/249841003"><i class="fa fa-renren" style="font-size:36px;color:blue "></i></a></span>
-      <span class="fa-hover"><a href="#"><i class="fa fa-weixin" style="font-size:36px;color: #7bb32e "></i></a></span>
-      <span class="fa-hover"><a href="http://weibo.com/myhaoboyi"><i class="fa fa-weibo" style="font-size:36px;color: #E6162D "></i></a>
-      </span>
-      </div>
-    </div>
-    </div>
-    <div class='row copyright'>
-        <h5>© 2016 Boyi Hao. All rights reserved.</h5>
-        <h5>Version: 0.1</h5>
-      </div>
-  </div>
-</footer>
+<body role="document">
+<a href="#mainArea" class="sr-only sr-only-focusable">Skip to main content</a>
+<div id="landingPage"></div>
+<div id="header" class="hidden-print">
 </div>
+<div id="mainArea" style="margin-top: 50px">
+
+</div>
+<!--/.container-fluid-->
+<div id="usptoAppFooter"  class="hidden-print">
+</div>
+<script data-main="main.js" src="vendor/require/require.js"></script>
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<link rel="stylesheet" href ='style/freeStyle.css'>
+<link rel="stylesheet" href="https://npmcdn.com/leaflet@0.7.7/dist/leaflet.css" />
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
+
 </html>
